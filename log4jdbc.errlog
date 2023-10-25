@@ -1,0 +1,10 @@
+"Receiver class net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy does not define or inherit an implementation of the resolved method"
+
+특정 테이블 쿼리시 이런 로그 뜨면서 안되길래
+구글링 한 결과... 우리의 티스토리 친로부터 해결법을 알게됐다.
+
+log4jdbc proxy lib는 좀 로그가 불친절한듯... i think it's doesnt provide specific explation about error.
+
+ㅇㅏ무튼 원인은 , result 를 받아줄 obj 와 
+디비 테이블 칼럼명 불일치이다. 
+
