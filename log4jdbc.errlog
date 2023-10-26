@@ -1,5 +1,10 @@
 "Receiver class net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy does not define or inherit an implementation of the resolved method"
 
+-> 2023-10-26 13:29:32 INFO 1. ResultSet.close() returned void
+2023-10-26 13:29:32 DEBUG Failed to complete request: org.springframework.web.util.NestedServletException: Handler dispatch failed; nested exception is java.lang.AbstractMethodError: Receiver class net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy does not define or inherit an implementation of the resolved method 'abstract java.lang.Object getObject(java.lang.String, java.lang.Class)' of interface java.sql.ResultSet.
+2023-10-26 13:29:32 ERROR Forwarding to error page from request [/weekly/post/list] due to exception [Receiver class net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy does not define or inherit an implementation of the resolved method 'abstract java.lang.Object getObject(java.lang.String, java.lang.Class)' of interface java.sql.ResultSet.]
+java.lang.AbstractMethodError: Receiver class net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy does not define or inherit an implementation of the resolved method 'abstract java.lang.Object getObject(java.lang.String, java.lang.Class)' of interface java.sql.ResultSet.
+
 특정 테이블 쿼리시 이런 로그 뜨면서 안되길래
 구글링 한 결과... 우리의 티스토리 친로부터 해결법을 알게됐다.
 
