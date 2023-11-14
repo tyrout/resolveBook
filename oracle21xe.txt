@@ -1,0 +1,11 @@
+오라클 21xe 10.0.1.174 oracledb 
+tns name 
+./product/21c/dbhomeXE/network/admin/samples/tnsnames.ora
+./homes/OraDBHome21cXE/network/admin/tnsnames.ora
+[root@dev-dbms ] vi ./product/21c/dbhomeXE/network/admin/samples/tnsnames.ora
+[root@dev-dbms ] vi
+[root@dev-dbms ] vi ./homes/OraDBHome21cXE/network/admin/tnsnames.ora
+[root@dev-dbms ]
+
+tns 설정
+/opt/oracle/homes 에 있음
