@@ -1,0 +1,18 @@
+
+* i don't know what exactly kaldi is and what kaldi do and how does it work 
+
+ - https://medium.com/swlh/automatic-speech-recognition-system-using-kaldi-from-scratch-337eb7c8eea8
+  Let’s Talk about Speech Recognition
+  In general Speech Recognition framework: 
+  1. Process incoming wav speech 
+  2. Than from wave signal , we extract acoustic features using acoustic model 
+  3. Linking those features to words or vocabulary or lexicon 
+  4. Language model or grammar defines how words can be connected to each.
+
+
+    - acoustic model : 
+      An acoustic model is used in automatic speech recognition to represent the relationship between an audio signal and the phonemes or other linguistic units that make up speech. 
+      The model is learned from a set of audio recordings and their corresponding transcripts. 
+      It is created by taking audio recordings of speech, and their text transcriptions, and using software to create statistical representations of the sounds that make up each word.
+
+      -> 여기서 말하는 'software to create statistical representations of the sounds that make up each word' 가 kaldi 인듯 
